@@ -1,0 +1,611 @@
+/* Elements Styling Head Title */
+.headTitle {
+  margin-bottom: 20px;
+  z-index: 50;
+  position: relative;
+}
+.headTitle > P {
+  color: var(--TEXT, #01213a);
+  margin: 0;
+  font-family: Almarai;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 281.25% */
+}
+.headTitle > img {
+  width: 261px;
+  height: 14.167px;
+}
+/* Note ui Styling */
+.noteTitle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+  column-gap: 5px;
+}
+.notSecond {
+  direction: rtl;
+}
+.noteTitle > p:nth-child(1) {
+  color: var(--TEXT, #01213a);
+  font-family: Almarai, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+}
+.noteTitle > p:nth-child(1) > span {
+  color: var(--TEXT, #01213a);
+  font-family: Almarai;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  direction: rtl;
+  display: flex;
+  column-gap: 5px;
+}
+.noteTitle > p:nth-child(2) {
+  direction: rtl;
+  color: var(--RED, #fe0000);
+  text-align: center;
+  font-family: Almarai;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+/* Input ui Sytling */
+.inputMain {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.inputLable {
+  color: var(--TEXT, #01213a);
+  text-align: right;
+  font-family: Almarai;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+}
+.inputBox {
+  width: 531.265px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 0 20px;
+}
+.inputBox > img {
+  cursor: pointer;
+}
+.inputBox > p:first-child {
+  color: var(--TEXT, #01213a);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Cairo, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 200% */
+  text-transform: capitalize;
+}
+.accountOn {
+  border: 1px solid #d9d9d9;
+  background: var(--foundation-blue-light, #e6efff);
+}
+.inputSec {
+  border: none;
+  color: var(--TEXT, #01213a);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Cairo, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 200% */
+  text-transform: capitalize;
+  direction: rtl;
+  background-color: inherit;
+  outline: none;
+  width: 90%;
+}
+.inputSec::placeholder {
+  color: var(--TEXT, #01213a) !important;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Cairo, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 200% */
+  text-transform: capitalize;
+}
+/* Button UI styling */
+.btnStyle {
+  width: 571.265px;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid var(--BLUE, #0060ff);
+  background: var(--BLUE, #0060ff);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.btnStyle:hover {
+  background: #0151d3;
+  box-shadow: 0px 5px 15px rgba(0, 106, 255, 0.419);
+}
+.btnStyle > p {
+  color: #fff;
+  text-align: center;
+  font-family: Almarai, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 200% */
+}
+.btnStyleDis {
+  cursor: auto;
+  background-color: #dee9fb;
+  color: var(--TEXT, #01213a) !important;
+  border-radius: 8px;
+  border: 1px solid rgba(230, 239, 255, 0.1);
+  box-shadow: 0px 0px 0px 4px rgba(0, 96, 255, 0.1),
+    0px 1px 2px 0px rgba(255, 255, 255, 0.05);
+}
+.btnStyleDis:hover {
+  background-color: #dee9fb;
+  color: var(--TEXT, #01213a) !important;
+  box-shadow: 0px 0px 0px 4px rgba(0, 96, 255, 0.1),
+    0px 1px 2px 0px rgba(255, 255, 255, 0.05);
+}
+/* Two Buttons */
+.thirdContent {
+  display: flex;
+  column-gap: 20px;
+  float: right;
+  margin: 20px 0;
+}
+.bold {
+  cursor: pointer;
+  background-color: #dee9fb;
+  color: var(--TEXT, #01213a);
+  font-family: Almarai;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 125% */
+  padding: 10px 27px 10px 26px;
+  border-radius: 8px;
+  border: 1px solid rgba(230, 239, 255, 0.1);
+  box-shadow: 0px 0px 0px 4px rgba(0, 96, 255, 0.1),
+    0px 1px 2px 0px rgba(255, 255, 255, 0.05);
+}
+.bold:hover {
+  background-color: #b9d1f7;
+}
+.light {
+  cursor: pointer;
+  padding: 10px 27px 10px 26px;
+  border-radius: 8px;
+  border: 1px solid var(--BLUE, #0060ff);
+  background: var(--BLUE, #0060ff);
+  box-shadow: 0px 0px 0px 4px rgba(0, 96, 255, 0.1),
+    0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  color: #e6efff;
+  font-family: Almarai, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+}
+.light:hover {
+  color: #fff;
+  background: #0d4cb3;
+}
+/* Touch Box ui Styling */
+.boxMain {
+  display: flex;
+  width: 406px;
+  height: 344px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid rgba(216, 216, 216, 0.4);
+  gap: 22px;
+  background: #fff;
+  box-shadow: 0px 67.11439px 109.06088px 0px rgba(0, 0, 0, 0.05);
+}
+.boxMain > p {
+  align-self: flex-end;
+  color: var(--TEXT, #01213a);
+  margin: 0;
+  margin-right: 30px;
+  text-align: right;
+  font-family: Almarai;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; /* 190% */
+}
+.contentBtn {
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contentBtn > p {
+  margin: 0;
+  margin-right: 30px;
+  color: var(--TEXT, #01213a);
+  text-align: right;
+  font-family: Almarai;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; /* 190% */
+}
+.contentStrong {
+  color: var(--TEXT, #01213a);
+  font-family: Almarai;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-right: 20px;
+}
+.btnStartNow {
+  cursor: pointer;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+  border: none;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.btnStartNow > img {
+  transition: 1s all ease-in-out;
+}
+.btnStartNow:hover > img {
+  transform: translateX(-20px);
+}
+.btnStartNow > p {
+  color: var(--BLUE, #0060ff);
+  text-align: right;
+  font-family: Almarai;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 25.2px */
+  letter-spacing: 0.36px;
+  margin: 0;
+}
+.boxConAr {
+  direction: rtl;
+}
+/* Alfa Boxes ui */
+.alfaBox {
+  z-index: 50;
+  display: flex;
+  width: 373px;
+  height: 366px;
+  padding: 30px 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  flex-shrink: 0;
+  border: 1px solid rgba(216, 216, 216, 0.4);
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 67.11439px 109.06088px 0px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+.alfaBox:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.alfaBox > p {
+  color: var(--TEXT, #01213a);
+  text-align: center;
+  font-family: Almarai;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 0;
+  direction: rtl;
+}
+
+/* Box Rectangle sytling for afla and other pages */
+.boxRecMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 356px;
+  height: 180px;
+  padding: 30px 40px;
+  gap: 22px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid rgba(216, 216, 216, 0.4);
+  background: #fff;
+  box-shadow: 0px 67.11439px 109.06088px 0px rgba(0, 0, 0, 0.05);
+}
+.imgRec {
+  width: 90px;
+  height: 90px;
+  flex-shrink: 0;
+}
+.boxRecContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.boxRecContent > p {
+  color: var(--TEXT, #01213a);
+  text-align: right;
+  font-family: Almarai, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; /* 190% */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+}
+.boxRecContent > p span {
+  text-align: flex-end;
+}
+.rtlMade {
+  direction: rtl;
+}
+/* Media screen for 1500px */
+@media screen and (max-width: 1515px) {
+  .alfaBox {
+    width: 343px;
+    height: 356px;
+    padding: 25px 30px;
+  }
+  .boxMain {
+    width: 360px;
+    height: 320px;
+  }
+  .prizeImg {
+    width: 350px;
+  }
+  .boxRecMain {
+    width: 320px;
+    height: 160px;
+    padding: 30px;
+  }
+}
+
+/* Media screen for 1350px */
+@media screen and (max-width: 1370px) {
+  .boxRecMain {
+    width: 300px;
+    height: 160px;
+    padding: 20px;
+  }
+  .alfaBox {
+    width: 275px;
+    height: 275px;
+    padding: 15px 30px;
+  }
+  .boxMain {
+   width: 320px;
+   height: 320px;
+ }
+ .prizeImg {
+   width: 310px;
+ }
+ 
+}
+/* Media screen for 1225px */
+@media screen and (max-width: 1225px) {
+  .alfaBox {
+    width: 253px;
+    height: 296px;
+    padding: 15px 30px;
+  }
+  .alfaBoxImg {
+    width: 90px;
+    height: 90px;
+  }
+  .alfaBox > p {
+    font-size: 20px;
+  }
+  .noteTitle > p {
+    font-size: 16px !important;
+    text-align: center !important;
+  }
+  .noteTitle > p > span {
+    font-size: 18px !important;
+  }
+  /* Touch Box */
+  .boxMain {
+    width: 300px;
+    height: 320px;
+    padding: 7px;
+  }
+  .prizeImg {
+    width: 290px;
+  }
+  /* Box Rectangle */
+  .boxRecMain {
+    width: 250px;
+    height: 130px;
+    padding: 20px;
+  }
+  .imgRec {
+    width: 70px;
+    height: 70px;
+  }
+  .boxRecContent > p {
+    font-size: 16px;
+  }
+  .boxRecContent > p span {
+    font-size: 15px;
+  }
+}
+/* Media screen for 1075px */
+@media screen and (max-width: 1075px) {
+  .alfaBox {
+    width: 175px;
+    height: 225px;
+    padding: 15px 30px;
+  }
+  .noteTitle {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+  .noteTitle > p {
+    font-size: 14px !important;
+    text-align: center !important;
+    margin: 0;
+  }
+  .noteTitle > p > span {
+    font-size: 14px !important;
+  }
+  /* Touch Box */
+  .boxMain {
+    width: 250px;
+    height: 300px;
+  }
+  .prizeImg {
+    width: 240px;
+  }
+  .boxMain > p {
+    font-size: 16px;
+  }
+  .contentBtn > p {
+    font-size: 16px;
+  }
+  .contentStrong {
+    font-size: 16px;
+    margin-right: 12px;
+  }
+  .btnStartNow {
+    margin-left: 15px;
+  }
+  .btnStartNow > p {
+    font-size: 14px;
+  }
+  .boxRecMain {
+    width: 240px;
+    padding: 15px;
+  }
+}
+/* Media screen for 800px */
+@media screen and (max-width: 800px) {
+  .alfaBox {
+    width: 130px;
+    height: 150px;
+    padding: 15px 30px;
+  }
+}
+/* Media screen for 600px */
+@media screen and (max-width: 600px) {
+  .alfaBox {
+    width: 100px;
+    height: 150px;
+    padding: 15px 30px;
+  }
+  .alfaBoxImg {
+    width: 70px;
+    height: 70px;
+  }
+  .alfaBox > p {
+    font-size: 17px;
+  }
+  /* Input Section media screen */
+  .inputLable {
+    font-size: 14px !important;
+  }
+  .inputBox {
+    width: 370px;
+  }
+  /* Button section */
+  .btnStyle {
+    width: 410px;
+  }
+  .noteTitle > p {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    font-size: 13px !important;
+  }
+  .noteTitle > p > span {
+    font-size: 16px !important;
+  }
+  /* Touch Box */
+  .boxMain {
+    width: 180px;
+    height: 250px;
+    gap: 10px;
+  }
+  .prizeImg {
+    width: 170px;
+  }
+  .boxMain > p {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .contentBtn {
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+  .contentBtn > p {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .contentStrong {
+    font-size: 14px;
+    margin-right: 12px;
+  }
+  .btnStartNow {
+    margin-right: 7px;
+  }
+  .btnStartNow > p {
+    font-size: 14px;
+  }
+}
+/* Media screen for 430px */
+@media screen and (max-width: 430px) {
+  /* Input Section media screen */
+  .inputLable {
+    font-size: 16px;
+  }
+  .inputBox {
+    width: 300px;
+    height: 42px;
+  }
+  /* Button section */
+  .btnStyle {
+    width: 340px;
+    height: 40px;
+  }
+  .btnStyle > p {
+    font-size: 14px;
+  }
+}

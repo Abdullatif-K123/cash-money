@@ -1,0 +1,65 @@
+/* Charging section page */
+.chargingPage{
+    
+     padding: 50px 91px 80px 87px;
+     
+}
+.chargingMain{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.chargingContent{
+     display: flex;
+     align-items: flex-end;
+     flex-direction: column;
+     row-gap: 20px;
+}
+/* Cash to Cash */
+.imgSizingWallet{
+    width: 371.001px;
+    height: 368.261px; 
+}
+/* Responsive tablet with width 1325px */
+@media screen and (max-width: 1325px) {
+     .imgSizingWallet{
+           width: 270px;
+           height: 300px;
+     }
+     .imgSizingMoney{
+          width: 500px;
+     }    
+
+     
+} 
+/* Responsive tablet with width 1225px */
+@media screen and (max-width: 1225px) {
+     .chargingPage{
+           padding:30px;
+     }
+     .imgSizing{
+          width: 335px;
+          height: 368.261px; 
+      }
+      .imgSizingMoney{
+           width: 330px;
+      }
+}
+/* Responsive tablet with width 1025px */
+@media screen and (max-width: 1025px) {
+     .chargingPage{
+          padding: 30px;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           row-gap: 30px;
+     }
+     .imgSizing , .imgSizingWallet , .imgSizingMoney{
+          display: none;
+     }
+     .chargingContent{
+          justify-content: center;
+          align-items: center;
+     }
+}

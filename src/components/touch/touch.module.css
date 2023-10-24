@@ -1,0 +1,87 @@
+/* Charging section page */
+.touchPage{
+    
+    padding: 50px 91px 80px 87px;
+    background-color: #fff;
+    height: 100%;
+    flex-shrink: 0;
+    
+}
+.chargingMain{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.touchContent{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.touchContent > p:first-child {
+    color: var(--TEXT, #01213A);
+    text-align: right;
+    font-family: Almarai;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px; /* 190% */
+    margin: 0;
+}
+/* Cash to Cash */
+.imgSizingWallet{
+ width: 553px;
+height: 364px; 
+}
+/* Touch Main ui Styling */
+.boxesPrize{
+     display: flex;
+     align-items:center;
+     justify-content: flex-end;
+     flex-wrap: wrap;
+     column-gap: 20px;
+     row-gap: 40px;
+}
+/* Responsive mobile view for 1325px */
+@media screen and (max-width: 1325px){
+    .imgSizingWallet{
+        width: 475px;
+       height: 324px; 
+       }
+       .touchPage{
+        padding: 50px 70px 80px 70px;
+       }
+}
+
+/* Responsive mobile view for 1225px */
+@media screen and (max-width: 1225px){
+    .touchContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+    }
+    .touchPage{
+        padding: 30px;
+    }
+    .boxesPrize{
+         justify-content: center;
+    }
+}
+/* Responsive mobile view 1125px */
+@media screen and (max-width: 1125px){
+    .imgSizingWallet{
+        width: 375px;
+       height: 280px; 
+       }
+}
+/* Responsive mobile view 1025px */
+@media screen and (max-width: 1025px){
+    .chargingMain{
+         align-items: center;
+         justify-content: center;
+    }
+   .imgSizingWallet{
+     display: none;
+   }
+}

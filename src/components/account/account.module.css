@@ -1,0 +1,192 @@
+/* Sign up styling page */
+.accountMain{
+    padding: 50px 91px 80px 87px;
+    background-color: #fff;     
+}
+.accountImgContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.accountContent{
+     display: flex;
+     flex-direction: column;
+     row-gap: 10px;
+}
+.accountContent > p{
+    margin: 0;
+    color: var(--TEXT, #01213A);
+    text-align: right;
+    font-family: Almarai;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 210% */
+}
+.signInText{
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+     column-gap: 10px;
+}
+.signInText > p:nth-child(2){
+    color: var(--TEXT, #01213A);
+    font-family: Almarai;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+}
+.signInText > p:first-child{
+    color: var(--BLUE, #0060FF);
+    font-family: Almarai;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    cursor: pointer;
+}
+.agreePolicies{
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+     column-gap: 5px;
+}
+.agreePolicies > img{
+     cursor: pointer;
+}
+.checkBoxStyle{
+    width: 32px;
+height: 32px;
+flex-shrink: 0;
+}
+/* SignIn Page Style*/
+.forgetPass{
+    color: var(--BLUE, #0c66f7) !important;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Cairo, sans-serif !important;
+font-size: 14px !important;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 200% */
+text-transform: capitalize;
+text-align: left !important;
+cursor: pointer;
+}
+.multiCircle{
+    position: absolute;
+    top:  0;
+    left: 0;
+   
+ }
+ .textareaMain{
+     display: flex;
+     flex-direction: column;
+     gap: 12px;
+ }
+ .inputLable{
+    color: var(--TEXT, #01213A);
+    text-align: right;
+    font-family: Almarai;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+ }
+ .textareaSec{ 
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    padding: 5px 10px;
+     color: var(--TEXT, #01213A);
+     font-feature-settings: 'clig' off, 'liga' off;
+     font-family: Cairo, sans-serif;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 28px; /* 200% */
+     text-transform: capitalize;
+     direction: rtl;
+     background-color: #E6EFFF;
+     outline: none;    
+ }
+ /* responsive tab view for 1275 and less */
+ @media screen and (max-width: 1275px){
+    .accountMain{
+        padding: 30px;
+        background-color: #fff;     
+    }
+     .imgSizingWallet{
+         width: 450px;
+         height: 300px;
+     }
+ }
+
+ /* responsive tab view for 1075 and less */
+ @media screen and (max-width: 1075px){
+    .accountMain{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         row-gap: 30px;
+         align-items: center;
+    }
+    .accountContent{
+         justify-content: center;
+         align-items: center;
+    }
+    .imgSizingWallet{
+         display: none;
+    }
+     .accountContent > p{
+         font-size: 18px;
+         line-height: 35px;
+     }
+     .signInText > p:nth-child(2){
+        font-size: 18px;
+         line-height: 35px;
+     }
+     .signInText > p:first-child{
+     font-size: 16px;
+     line-height: 33px;
+     }
+     .multiCircle{
+        width: 250px;
+        height: 250px
+   }
+ }
+ /* Media Screen for 1025px */
+ @media screen and (max-width: 1025px) {
+    .inputLable{ 
+         text-align: right;
+         float: right;
+         width: inherit;
+    }
+    .textareaSec{
+         width: 558px;
+    }
+ }
+ /* Media screen for 600px */
+ @media screen and (max-width: 600px){
+     .inputLable{
+         font-size: 14px ;
+         width: inherit;
+     }
+     .textareaSec{
+        width: 390px;
+     }
+ }
+ /* Media screen for 430px */
+ @media screen and (max-width: 430px){
+    
+    .checkBoxStyle{
+        width: 25px;
+    height: 25px;
+    }
+    .inputLable{
+        font-size: 14px ;
+        width: inherit;
+    }
+    .textareaSec{
+       width: 320px;
+    }
+ }

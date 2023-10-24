@@ -1,0 +1,168 @@
+.alfaPage{
+    padding: 50px 41px 80px 47px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+}
+.boxesPrize{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+/* Dollarat Page Styling */
+.dollarPage{
+    padding: 50px 91px 80px 67px;
+    background-color: #fff;
+    height: 100%;
+    flex-shrink: 0;
+}
+.dollaratContent{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.dollaratContent > p:first-child {
+    color: var(--TEXT, #01213A);
+    text-align: right;
+    font-family: Almarai;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px; /* 190% */
+}
+.dollaratContent >p >span{
+    color: var(--RED, #FE0000);
+font-family: Almarai;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+.alfaDollar{
+    display: flex;
+    align-items:center;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 40px;
+    margin-top: 20px;
+}
+/* Dollarat charge the other number */
+.alfaPageSub{
+    padding: 50px 91px 80px 87px;
+    background-color: #fff;
+    
+}
+.chargingMain{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.touchContent{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.touchContent > p:first-child {
+    color: var(--TEXT, #01213A);
+    text-align: right;
+    font-family: Almarai;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px; /* 190% */
+    margin: 0;
+}
+.touchContent > p > span{
+    color: var(--RED, #FE0000);
+    font-family: Almarai;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.makeRtl{
+     direction: rtl;
+}
+.imgSizingWallet{
+    width: 503px;
+   height: 334px; 
+}
+.multiCircle{
+    position: absolute;
+    top: 0px;
+    left: 0;
+   
+ }
+/* responsive media screen for 1275px  */
+@media screen and (max-width: 1275px){
+    .alfaPageSub{
+        padding: 50px 30px  ;
+    }
+    .imgSizingWallet{
+        width: 400px;
+       height: 300px; 
+    }
+}
+ /* responsive media screen for 1025px */
+ @media screen and (max-width: 1025px) {
+    .alfaPage{
+        padding: 50px 10px 80px 10px;
+    } 
+    .dollarPage{
+         padding: 30px;
+    }
+    .dollaratContent{
+         align-items: center;
+         justify-content: center; 
+    }
+    .alfaDollar{
+        justify-content: center;
+    }
+    .imgSizingWallet{
+         display: none;
+    }
+    .touchContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .chargingMain{
+      
+         justify-content: center;
+    }
+ }
+ /* responsive media screen for 800px */
+ @media screen and (max-width: 800px){
+    .alfaPage{
+        padding: 50px 0px 80px 0px;
+    } 
+    .boxesPrize{
+        column-gap: 10px;
+        row-gap: 20px;
+    } 
+    .multiCircle{
+         width: 150px;
+         height: 250px;
+    }
+ }
+ /* Responsive media screen for 600px */
+ @media screen and (max-width: 600px){
+     .makeRtl{
+         font-size: 16px !important;
+         text-align: center !important;
+         
+     }
+     .makeRtl > span{
+        font-size: 16px !important;
+
+    }
+    
+ }
